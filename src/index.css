@@ -162,7 +162,7 @@ img{
         font-size: 1rem;
     }
     .container{
-        width:var(--container-width-md)
+        width:var(--container-width-md);
     }
     section{
         padding: 5rem 0;
@@ -193,7 +193,7 @@ img{
         padding: 0.6rem 1.5rem;
     }
     section>p{
-        width:var(--container-width-md)
+        width:var(--container-width-md);
     }
     
 }
