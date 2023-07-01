@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './sections/Navbar/Navbar'
+import About from './sections/about/About'
+import Contact from './sections/contact/Contact'
+import Footer from './sections/Footer/Footer'
+import Header from './sections/Header/Header'
+import Portfolio from './sections/portfolio/Portfolio'
+// import DarkMode from './sections/darkmode/DarkMode'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default function App(){
+    return(
+        <>
+            <main>
+                <Navbar/>
+                {/* <DarkMode/> */}
+                <Header/>
+                
+                <About/>
+                <Portfolio/>
+                <Contact/>
+                <Footer/>
+                
+            </main>
+        </>
+    )
 }
-
-export default App;
