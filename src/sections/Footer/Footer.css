@@ -74,3 +74,15 @@ footer{
     }
     
 }
+@media screen and (max-width:600px){
+     #footer{
+        padding: 1rem ;
+    }
+    .footer-left{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .footer-right{
+        display:none;
+    }
+}
