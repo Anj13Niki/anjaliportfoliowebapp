@@ -34,6 +34,13 @@ const data= [
         link1:"https://github.com/Anj13Niki/bulletinboard",
         link2:"https://bulletinboard-sable.vercel.app/"
     }
+    {
+        id:6,
+        title:"Budget Web App",
+        desc:"A personal budgeting app that helps you figure out where your money went, plan your budget ahead of time and analyze past expenditures.",
+        link1:"https://github.com/Anj13Niki/budgetwebapp",
+        link2:"https://budgetwebapp.vercel.app/"
+    }
     
 ]
 export default data;
