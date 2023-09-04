@@ -1,6 +1,6 @@
 import './About.css'
 import AboutImage from '../../assets/AnjaliPic5.jpeg'
-import cv from '../../assets/AnjaliLatestResumeUpdated1.pdf'
+import cv from '../../assets/Anjali.resume.pdf'
 import { FaDownload } from 'react-icons/fa';
 export default function About(){
     return(
