@@ -33,7 +33,28 @@ const data= [
         desc:"Desgined and developed with the help of React.js.A unique note-making/organizing app to take textual notes and arrange them on your board.",
         link1:"https://github.com/Anj13Niki/bulletinboard",
         link2:"https://bulletinboard-sable.vercel.app/"
-    }
+    },
+    {
+        id:6,
+        title:"Budget Web App",
+        desc:"A personal budgeting app that helps you figure out where your money went, plan your budget ahead of time and analyze past expenditures.",
+        link1:"https://github.com/Anj13Niki/budgetwebapp",
+        link2:"https://budgetwebapp.vercel.app/"
+    },
+    {
+        id:7,
+        title:"Blog Web App",
+        desc:"Developed with the help of React.js and Firebase",
+        link1:"https://www.instagram.com/reel/Cwwu55urOyq/?igshid=MzRlODBiNWFlZA==",
+        link2:"https://blogwebapp-theta.vercel.app/"
+    },
+    {
+        id:8,
+        title:"Shrubit",
+        desc:"Developed with the help of React.js and Firebase",
+        link1:"https://www.instagram.com/reel/CwIlYHlLjcD/?igshid=MzRlODBiNWFlZA==",
+        link2:"https://ecomwebapp-h18j.vercel.app/"
+    },
     
 ]
 export default data;
