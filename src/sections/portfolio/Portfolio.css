@@ -6,22 +6,25 @@
     flex-direction: column;
   } */
   .portfolio{
-    padding: 7rem;
+    padding: 20rem;
     padding-bottom: 4rem;
+    padding-top: 4rem;
     background-color: var(--bg-color);
   }
   .portfolio h2{
     margin-bottom: 2rem;
+    text-align: center;
+    color: var(--color-black);
   }
   
   .cards{
     text-align: center;
-    width:100vw;
+    width:3rem;
     height:100vh;
     border-radius: 10px;
     /* background:rgba(255, 255, 255, 0.388); */
     background:var(--color-primary);
-    background: url('../../assets/bac.jpg');
+    background-color:var(--color-head);
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(80px);

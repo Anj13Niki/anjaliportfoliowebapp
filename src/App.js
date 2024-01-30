@@ -6,6 +6,9 @@ import Footer from './sections/Footer/Footer'
 import Header from './sections/Header/Header'
 import Portfolio from './sections/portfolio/Portfolio'
 // import DarkMode from './sections/darkmode/DarkMode'
+import './index.css'
+import Skills from './sections/skills/Skills'
+import Work from './sections/Work/Work'
 
 
 export default function App(){
@@ -15,10 +18,16 @@ export default function App(){
                 <Navbar/>
                 {/* <DarkMode/> */}
                 <Header/>
-                
-                <About/>
+                <div className='abandsk'>
+                    <Skills/>
+                    <About/>
+                </div>
                 <Portfolio/>
-                <Contact/>
+                <div className='pandw'>
+                    <Work/>
+                    <Contact/>
+                </div>
+                
                 <Footer/>
                 
             </main>

@@ -1,17 +1,13 @@
-h3{
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-}
+
 label{
     color:#fff;
 }
 .contact{
     display: flex;
     border-radius: 1rem;
-    padding: 2rem 1rem;
-    margin:auto;
-    max-width: 600px;
+    padding:1rem;
+    margin-left: 20%;
+    max-width: 350px;
     background: var(--color-primary);
     
 }
@@ -19,7 +15,7 @@ form{
     display: flex;
     flex-direction: column;
     gap:0.3rem;
-    justify-content: center;
+ 
     width:100%;
     
 }
@@ -45,8 +41,15 @@ form textarea:hover{
 .btn:hover{
     border-color: var(--color-white);
 }
+.btn1{
+  background-color: lightblue;
+}
+.btn1:hover{
+    background-color: #fff;
+}
 @media screen  and (max-width:600px){
     .contact{
-        margin: 2rem;
+      
+        margin-left: 7rem;
     }
 }

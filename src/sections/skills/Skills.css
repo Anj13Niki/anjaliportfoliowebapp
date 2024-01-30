@@ -1,0 +1,44 @@
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2.6rem;
+    padding: 1.5rem;
+}
+.set1{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+#skills h2{
+    margin-top:2.5rem;
+}
+.skill1,.skill2,.skill3,.skill4,.skill5,.skill6,.skill7,.skill8{
+    border-radius: 50%;
+    height:3rem;
+    width:4rem;
+}
+.skill1{
+    color: lightblue;
+}
+.skill2{
+    color: brown;
+}
+.skill3{
+    color: burlywood;
+}
+.skill4{
+    color: blue;
+}
+.skill5{
+    color: purple;
+}
+.skill6{
+    color: green;
+}
+.skill7{
+    color: darkmagenta;
+}
+.skill8{
+    color:darkgoldenrod;
+}
