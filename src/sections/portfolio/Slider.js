@@ -10,7 +10,7 @@ export default function Slider({slides}){
             <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube]}
       spaceBetween={50}
-      slidesPerView={1}
+      slidesPerView={3}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
