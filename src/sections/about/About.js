@@ -1,10 +1,5 @@
 import './About.css'
-import AboutImage from '../../assets/AnjaliPic5.jpeg'
-<<<<<<< HEAD
 
-=======
-import cv from '../../assets/Anjali.resume.pdf'
->>>>>>> 02e82f682e0fcffadf92d9729e087fc3489c3fbf
 import { FaDownload } from 'react-icons/fa';
 export default function About(){
     return(
