@@ -75,29 +75,21 @@ footer{
     }
     
 }
-<<<<<<< HEAD
-@media screen  and (max-width:600px){
-    #footer{
-=======
+
 @media screen and (max-width:600px){
      #footer{
->>>>>>> 02e82f682e0fcffadf92d9729e087fc3489c3fbf
+
         padding: 1rem ;
     }
     .footer-left{
         margin-right: 1rem;
         margin-left: 1rem;
-<<<<<<< HEAD
+
         flex-wrap: wrap;
     }
     .footer-right{
        display: none;
     }
 }
-=======
-    }
-    .footer-right{
-        display:none;
-    }
-}
->>>>>>> 02e82f682e0fcffadf92d9729e087fc3489c3fbf
+
+    
