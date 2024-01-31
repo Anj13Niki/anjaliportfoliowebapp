@@ -4,7 +4,7 @@ footer{
     background: var(--color-primary);
 }
 .footer-container{
-    max-width: 1290px;
+    max-width: 1300px;
     width:100vw;
     margin: auto;
     display: grid;
