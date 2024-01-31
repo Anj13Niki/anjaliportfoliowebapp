@@ -96,7 +96,7 @@ header{
 @media screen  and (max-width:600px){
     .header_profile{
         width:17rem;
-        height:26rem;
+        height:24rem;
         max-width: 50%;
         max-height: 50vh;
     }
