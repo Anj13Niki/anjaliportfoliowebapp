@@ -90,6 +90,9 @@ footer{
     .footer-right{
        display: none;
     }
+    .footer-left{
+        display:none;
+    }
 }
 
     
