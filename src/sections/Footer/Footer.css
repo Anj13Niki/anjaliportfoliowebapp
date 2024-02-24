@@ -93,6 +93,11 @@ footer{
     .footer-left{
         display:none;
     }
+    .footer-mid{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
 }
 
     
