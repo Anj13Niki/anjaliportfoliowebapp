@@ -97,6 +97,12 @@ footer{
         display:flex;
         justify-content:center;
         align-items: center;
+        
+    }
+    .footer-container{
+         display:flex;
+        justify-content:center;
+        align-items: center;
     }
 }
 
