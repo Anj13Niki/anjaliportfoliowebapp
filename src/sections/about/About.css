@@ -1,6 +1,6 @@
 .about_container{
     padding: 1.5rem;
-
+    width:100%;
 }
 
 .potrait:hover{
@@ -60,4 +60,9 @@
           min-width: 0;
         }
       }
+}
+@media screen and (max-width:760px){
+    .about_container{
+        width:120%;
+    }
 }
