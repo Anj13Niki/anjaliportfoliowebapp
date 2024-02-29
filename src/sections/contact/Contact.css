@@ -2,13 +2,16 @@
 label{
     color:#fff;
 }
+#contact{
+    width:100%;
+}
 .contact{
     display: flex;
     border-radius: 1rem;
     padding:1rem;
     margin-left: 20%;
-/*     max-width: 350px; */
-    width:100%;
+    max-width: 350px;
+   
     background: var(--color-primary);
     
 }
@@ -50,7 +53,10 @@ form textarea:hover{
 }
 @media screen  and (max-width:600px){
     .contact{
-        width:120%;
+        
         margin-left: 2rem;
+    }
+    #contact{
+        width:120%;
     }
 }
