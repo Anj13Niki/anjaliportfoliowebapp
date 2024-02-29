@@ -108,6 +108,7 @@ header{
     }
     header{
         margin-top: 7rem;
+        width:120%;
     }
     .header_container p{
         margin: 1.5rem;
