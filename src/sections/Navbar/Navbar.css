@@ -43,7 +43,7 @@
 }
 .nav_menu li a{
     font-size: 1rem;
-    color: var(--color-white);
+    color: var(--color-black);
 }
 .nav_menu li a:hover{
     color: var(--color-head);

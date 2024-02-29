@@ -1,18 +1,18 @@
 footer{
-    width: 100%;
+    width: 120%;
     padding: 2rem 0rem;
     background: var(--color-primary);
 }
 .footer-container{
-    overflow:hidden;
-    width:100vw;
+   width: 100%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: space-around;
 }
 .footer-left{
-    max-width: 100%;
+   
     height:100%;
     display:flex;
     justify-content: flex-end;
@@ -27,9 +27,12 @@ footer{
 }
 .footer-mid{
     display: flex;
-    justify-content:center;
+  
     align-items: flex-end;
     color:var(--color-white);
+}
+button{
+    background: transparent;
 }
 .footer-mid p{
     font-size: 1rem;
