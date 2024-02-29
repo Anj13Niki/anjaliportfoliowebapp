@@ -1,5 +1,5 @@
 footer{
-    width: 120%;
+    width: 100%;
     padding: 2rem 0rem;
     background: var(--color-primary);
 }
@@ -84,6 +84,8 @@ button{
 
         padding: 1rem ;
     }
+    footer{
+        width:120%;
     .footer-left{
         margin-right: 1rem;
         margin-left: 1rem;
