@@ -38,7 +38,7 @@ export default function Footer() {
                     <p><MdEmail id='icon' />anjalirawat3443@gmail.com</p>
                 </div>
                 <div className='footer-mid'>
-                    <p> Made with <button onClick={action}>{likecol ? <FaHeart color='red' size={20} /> : <FaRegHeart color='red' size={20} />}</button><span>{like}</span>  by Anjali.</p>
+                    <p> Made with <button onClick={action}>{likecol ? <FaHeart color='red' size={20} /> : <FaRegHeart color='red' size={20} />}</button> by Anjali.</p>
                 </div>
                 <div className='footer-right'>
                     {
